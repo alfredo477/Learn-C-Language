@@ -1,0 +1,5 @@
+标准库和头文件
+//库函数是编译厂商提供的 库函数相关头文件地址https://zh.cppreference,com/w/c/header
+库函数的使用方法：学习和调用
+//C/C++官方链接：https://zh.cppreference.com/w/c/header
+//cplusplus.com:https//legacy.cplusplus.com/reference/clibrary/
