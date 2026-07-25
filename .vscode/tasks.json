@@ -8,7 +8,6 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-fdebug-prefix-map=C:/Users/12729/OneDrive/Desktop/Learn-C-Language/=",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
