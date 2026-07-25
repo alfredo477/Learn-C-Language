@@ -28,7 +28,7 @@ int main(){
     int sz=sizeof(arr)/sizeof(arr[0]);
     print(arr,sz);//要上数组 不要写arr[3]
 
-    reverse(arr,sz);
+    reverse(arr,sz);//证明形参和实参共用一个地址 运行下一步会返回上面的自定义函数
 
     print(arr,sz);
     return 0;
