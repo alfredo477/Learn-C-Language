@@ -1,3 +1,4 @@
+//一元运算符
 #include<stdio.h>
 int main(){
     int a=10;

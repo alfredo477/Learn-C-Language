@@ -11,6 +11,6 @@ int main(){
     int n,k;
     int ret;
     scanf("%d%d",&n,&k);
-ret=p(n,k);~~
+ret=p(n,k);
     printf("%d",ret);
 }
