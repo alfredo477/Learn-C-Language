@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main(){
     int a=10,b=20,c=30;//int *p1=&a,int *p2=&b,int *p3=&c;
-    int *arr[]={&a,&b,&c};
+    int *arr[]={&a,&b,&c};//也可以写成 int *p[3]={&a,&b,&c} 因为括号的优先级高于* 所以*p[3]表示一个长度为3的整型指针数组
     printf("%d\n",*(arr+1));//arr+1表示arr[1]的地址 也就是&b的地址 *(arr+1)表示&b也就是b的地址 只不过%d把地址当作整型输出了
     printf("%d\n",**(arr+1));//*(arr+1)表示arr[1]也就是&b的地址 **(arr+1)表示b的值 也就是20 %d表示整型
     return 0;
