@@ -10,7 +10,7 @@
 #include<string.h>
 int main(){
     int a=10;//当一个普通变量被const修饰之后 变量不可被修改
-    const int *p=&a;//int const *p此时const 修饰整型*p (*p)的值固定 *p不可被修改 但是可以通过改变a的值 来修正*p的值
+    int *p=&a;//int const *p此时const 修饰整型*p (*p)的值固定 *p不可被修改 但是可以通过改变a的值 来修正*p的值
     *p=100;
     printf("%d\n",a);
     printf("%d\n",*p);
