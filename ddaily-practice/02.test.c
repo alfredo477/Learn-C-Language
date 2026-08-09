@@ -8,12 +8,12 @@
 #include<stdio.h>
 int main(){
     int n=0;
-    int arr[101];
+    int arr[101];//因为n从1-100
     int i,j,k,temp;
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
-        scanf("%d",&arr[i]);
-    for(i=1;i<=n-1;i++){
+    while(scanf("%d",&n)!=EOF){
+        for(i=1;i<=n;i++)
+            scanf("%d",&arr[i]);//存入arr[]的值
+    for(i=1;i<=n-1;i++){//
         k=i;
         for(j=i+1;j<=n;j++){
             if(arr[j]<arr[k])
@@ -27,5 +27,7 @@ int main(){
     }
     for(i=1;i<=n;i++)
         printf("%d ",arr[i]);
+    printf("\n");
+    }
     return 0;
 }
