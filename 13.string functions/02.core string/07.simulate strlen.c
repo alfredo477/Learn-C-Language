@@ -15,7 +15,7 @@ size_t my_strlen(const char*str){
     return count;
 }
 int main(){
-    char* str="NULL";//如果str是NULL 
+    char* str=NULL;//如果str是NULL NUll是空 "NULL"是字符串
     assert(str!=NULL);//断言 在开发者模式里面 现在是release模式
     int len=my_strlen(str);   
     printf("%d\n",len);
