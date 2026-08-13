@@ -1,3 +1,4 @@
+//if选择结构练习
 #include<stdio.h>
 int main(){
     int n;

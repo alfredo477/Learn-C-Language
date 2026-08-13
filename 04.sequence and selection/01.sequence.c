@@ -1,3 +1,4 @@
+//顺序结构
 #include<stdio.h>
 int main(){
     printf("a\n");

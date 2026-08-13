@@ -5,6 +5,7 @@ int main(){
     printf("%d,%d,%d\n",a,b,c);
     printf("ret=%d\n",ret);
 }
+//scan)返回的是读取正确格式的个数 因为中间可能因为格式不一样(%d 输入hello) 而只读取到了前面部分的值
 //control Z为终止符 终止之后printf里面的数字是随机值
 //返回值为0 表示没有读取任何值或者匹配失败
 //返回值为-1（EOF）表示在读取正确文件之前 发生读取错误或读取到文件末尾 EOF(End Of File) 
