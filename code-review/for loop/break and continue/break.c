@@ -12,3 +12,4 @@ int main(){
     }
     printf("%d",i);
 }
+//也可以用while for用在条件已知的情况下 while在循环截至的条件已知
