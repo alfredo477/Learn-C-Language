@@ -1,5 +1,5 @@
 //找到1-100之间第四个能被3整除的数 要求使用break
-//也可以用for循环 for(i=1;i<=100;i++)
+//也可以用while循环 while(count<4)
 #include<stdio.h>
 int main(){
     int i=0;
