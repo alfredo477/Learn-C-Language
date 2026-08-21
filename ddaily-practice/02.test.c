@@ -13,21 +13,21 @@ int main(){
     while(scanf("%d",&n)!=EOF){//读取scanf数据和判断之后是否有数据输入 若有则继续循环 无则等于-1停止循环 //在输入多组数据时很有用可以直接背 
         for(i=1;i<=n;i++)
             scanf("%d",&arr[i]);//从a[1]开始输入数据 到a[101]里面一共有100个数据 a[0]为随机值 上下文一直未提及 不用管他
-    for(i=1;i<=n-1;i++){//
-        k=i;//默认k在i处为最小值的下标
-        for(j=i+1;j<=n;j++){
-            if(arr[j]<arr[k])
-                k=j;//寻找最小值的下标
-        }       
-        if(k!=i){//在i=1的循环中 a[1]与最小值交换
-            temp=arr[k];
-            arr[k]=arr[i];
-            arr[i]=temp;
+        for(i=1;i<=n-1;i++){//
+            k=i;//默认k在i处为最小值的下标
+            for(j=i+1;j<=n;j++){
+                if(arr[j]<arr[k])
+                    k=j;//寻找最小值的下标
+            }       
+            if(k!=i){//在i=1的循环中 a[1]与最小值交换
+                temp=arr[k];
+                arr[k]=arr[i];
+                arr[i]=temp;
         }
     }
-    for(i=1;i<=n;i++)
-        printf("%d ",arr[i]);
-    printf("\n");
+        for(i=1;i<=n;i++)
+            printf("%d ",arr[i]);
+        printf("\n");
     }
     return 0;
 }
