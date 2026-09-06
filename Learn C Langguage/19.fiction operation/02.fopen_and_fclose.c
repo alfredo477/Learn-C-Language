@@ -17,7 +17,6 @@ int main(){
         printf("文件打开失败\n");
         return -1;
     }
-    
     fclose(fp);//关闭文件
     return 0;
 }
