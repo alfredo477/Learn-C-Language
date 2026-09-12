@@ -11,5 +11,8 @@ int main(){
                 printf(" ");
         }
     }
+    for(i=0;i<len;i++){
+        printf("%c",str[i]);
+    }
     return 0;
 }
