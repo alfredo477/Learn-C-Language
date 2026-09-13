@@ -1,4 +1,4 @@
-//输入一串字符串 每隔2个字符 空格
+//输入一串字符串 每隔2个字符出现一个空格
 #include<stdio.h>
 int main(){
     char str[]="hello";
