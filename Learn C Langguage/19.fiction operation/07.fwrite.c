@@ -1,4 +1,4 @@
-//fwritr:一般用于二进制文件
+//fwrite:函数把指针内的数据写入到stream数据流里面(一般用于二进制文件)
 //size_t fwrite(const void* ptr,size_t size,size_t count,FILE* stream);
 //ptr为写入数据的指针 size为写入数据的字节大小 count为写入数据的数量 stream为装载的文件
 #include<stdio.h>
