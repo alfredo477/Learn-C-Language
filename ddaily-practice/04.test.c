@@ -2,28 +2,27 @@
 #include <string.h>
 void fun( char *ss )
 {
-	int i,n=0;
-	char* p;
-	p=&ss;
-	if(*p++!='\0')
-		n++;
-	for(i=i;i<n;i++){
+   int i;
+   for(i=0; ss[i]!='\0'; i++){
 		if(ss[i]>='a'&&ss[i]<='z')
-			if(s[])
+            ss[i]=ss[i]-'a'+'A';
 	}
-
 }
-
-void main( void )
+int main( void )
 {
    char tt[51];void NONO ();
    printf( "\nPlease enter an character string within 50 characters:\n" );
-   gets( tt );
+   if (fgets(tt, sizeof tt, stdin) != NULL) {
+      tt[strcspn(tt, "\n")] = '\0';
+   } else {
+      tt[0] = '\0';
+   }
    printf( "\n\nAfter changing, the string\n  \"%s\"", tt );
    fun(tt) ;
    printf( "\nbecomes\n  \"%s\"", tt );
    NONO();
    getchar();
+   return 0;
 }
 
 void NONO ()

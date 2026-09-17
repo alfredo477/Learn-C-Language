@@ -1,6 +1,19 @@
+# ===== 编译 / 运行产物 =====
 *.exe
 *.o
 *.obj
 *.out
+*.dat
+*.gch
+*.stackdump
+*.pdb
+*.ilk
+
+# ===== 编辑器 / IDE =====
 .vs/
 .vscode/
+
+# ===== AI agent 技能配置（仅本地保留，不上传） =====
+/.agents/
+/.claude/
+/agent/
