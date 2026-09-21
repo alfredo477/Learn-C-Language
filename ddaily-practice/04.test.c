@@ -1,3 +1,4 @@
+//把字符串中的小写字母转换为大写字母
 #include <stdio.h>
 #include <string.h>
 void fun( char *ss )
