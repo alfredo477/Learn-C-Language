@@ -1,3 +1,4 @@
+//这个是在C语言二级题库 可以尝试自己编写
 //把字符串中的小写字母转换为大写字母
 #include <stdio.h>
 #include <string.h>
